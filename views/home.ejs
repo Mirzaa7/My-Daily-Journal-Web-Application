@@ -1,0 +1,14 @@
+<%- include("partials/header") -%>
+
+<h1 class="homeTitles">Welcome to your Daily Journal!</h1>
+<h4><%= homeText %></h4>
+
+<h1 class="homeTitles">Your current journal posts</h1>
+<% postsArray.forEach(function(element){ %>
+    <h2> <%= element.postTitle %> </h2>
+    <p> <%= element.postText.substring(0,100) + " ..." %> <a href="/posts/<%= element.postTitle %>">Read More</a> </p>
+    <p class="postDateElement"> Posted on <%= newDate %> </p>
+   
+<% }); %>
+
+<!-- <%- include("partials/footer") -%> -->

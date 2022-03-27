@@ -1,0 +1,69 @@
+.container-fluid {
+  padding: 150px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+  color: #1abc9c !important;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: #178f77;
+  margin-top: 3%;
+}
+
+.footerAbout{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  background-color: #178f77;
+  margin-top: 3%;
+  bottom: 0;
+}
+
+#textBox{
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+.homeText{
+  max-width: 40ch;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.newPostTitle{
+  margin-bottom: 3%;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.homeTitles{
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+.postText{
+  overflow-wrap: break-word;
+  margin-top: 3%;
+}
+
+.postDateElement{
+  font-style: italic;
+}
+
+.postDateElement:last-child{
+  margin-bottom: 5%;
+}
